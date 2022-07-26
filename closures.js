@@ -4,6 +4,7 @@ function outer() {
 
   function inner() {
     count++;
+
     return `${count} ${fish}`
   }
 
